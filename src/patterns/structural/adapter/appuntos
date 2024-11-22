@@ -1,0 +1,12 @@
+
+    Applicazione Legacy --> che non viene più supportata o è "andata in pensione"
+    cioè non viene più usata o aggiornata.
+
+    Rounded peg --> tassello arrotondato
+    Square peg --> tassello quadrato
+
+    Spiegazione breve del pattern Adapter:
+    Quando si ha un'interfaccia che non è compatibile con un'altra interfaccia.
+
+    Ad es. Un server che supporta solo
+    XML e un client che supporta solo JSON, si usa un adapter per fare in modo che il server possa comunicare con il client.

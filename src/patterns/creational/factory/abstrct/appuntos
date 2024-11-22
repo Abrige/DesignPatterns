@@ -1,0 +1,7 @@
+
+    Spiegazione breve del pattern Abstract Factory:
+    Quando si hanno diverse classi di oggetti in un qualche modo collegati tra loro
+    e si vuole creare un'interfaccia per la creazione di questi oggetti, senza specificare
+    la classe concreta.
+    Così facendo si può continuare a estendere la gerarchia di classi astratte senza dover
+    modificare il codice.

@@ -1,0 +1,15 @@
+
+    Spiegazione Breve:
+    E' un oggetto intermediario tra il client e l'oggetto reale, questo fa si di gestire le richieste
+    in modo efficiente, ad esempio, se l'oggetto reale è pesante da creare, o se è lento a
+    rispondere (come nel caso di un database).
+
+    Il client non si deve accorgere di stare utilizzando un proxy, perciò il proxy deve avere le stesse
+    funzionalità dell'oggetto reale.
+
+    Caratteristiche da ricordare:
+    - Il proxy deve avere la stessa interfaccia dell'oggetto reale.
+        (quindi avere gli stessi esatti metodi dell'oggetto reale, cioè della sua interfaccia)
+    - Il proxy deve avere un riferimento all'oggetto reale.
+
+    Viene utilizzato moltissimo quando si vuole nascondere la logica o l'implementazione del servizio.

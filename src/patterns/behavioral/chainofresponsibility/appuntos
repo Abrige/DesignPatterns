@@ -1,0 +1,9 @@
+
+    Vedo una richiesta, controllo se la posso soddisfare, in caso contrario la passo ad un mio
+    sottoposto.
+
+    Ha dei comportamenti specifici ad ogni gestore, ed ogni gestore è completamente autonomo.
+
+    Ha una struttura di responsabilità a catena/albero con le classe una successiva all'altra.
+
+    opt + cmd + l per formattare il codice.

@@ -1,0 +1,9 @@
+
+    Lo usiamo quando vogliamo estendere le funzionalità (cioè aggiungere comportami extra
+    di un oggetto) senza modificarne la struttura, tramite un oggetto wrapper.
+
+    Questo risulta utile inoltre quando una classe è dichiarata final perciò non è possibile
+    estenderla e quindi estendere il suo comportamento. In questo caso abbiamo per forza bisogno
+    di una classe wrapper, e quindi qui entra in gioco il decorator.
+
+    Fa uso di ricorsione.

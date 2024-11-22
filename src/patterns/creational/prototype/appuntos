@@ -1,0 +1,11 @@
+
+    "Prototype" si riconosce perchè include un metodo clone.
+
+    Se si estende la concreteClass con una subclass, il metodo clone va ridefinito,
+    per evitare delle incostistenze, perchè altrimenti il metodo clone restiuirebbe
+    un oggetto di tipo ConcreteClass e non della subClass.
+
+    Il "Prototype" potrebbe essere utilizzato all'interno del patterns.creational.factory o dell'abstract
+    patterns.creational.factory.
+    Oppure per salvare degli stati intermedi di un processo (tipo uno snapshot),
+    facendo una lista di clone.

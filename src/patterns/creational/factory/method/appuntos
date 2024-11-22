@@ -1,0 +1,6 @@
+
+    Spiegazione breve del pattern Factory Method:
+    praticamente quando si ha bisogno di creare oggetti di vario tipo che interagiscono con
+    un qualche altro tipo di oggetto si delega la costruzione del tipo di oggetto ad una factory,
+    che sarebbe un delegato per la creazione di quell'oggetto in sostanza.
+    Ad es. il camion che si occupa dei trasporti, poi c'è la nave, l'aereo ecc..

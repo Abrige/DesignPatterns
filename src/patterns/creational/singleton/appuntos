@@ -1,0 +1,12 @@
+
+    Design pattern più semplice.
+    Risolve il problema dell'accesso alle risorse, come ad esempio l'accesso a database o file ecc...
+    Dato che ha bisogno di un costruttore privato abbiamo bisogno di un metodo statico per accedere all'istanza.
+    Se l'istanza esiste la restituiamo, altrimenti la creiamo.
+
+    Es: quando dobbiamo stabilire una connessione con un database, usiamo la classe patterns.creational.singleton
+    perchè abbiamo bisogno di una sola istanza di quella classe.
+
+    Quando una classe ha una unica istanza che dovrebbe essere condivisa con tutte le classi allora usiamo
+    il "patterns.creational.singleton".
+

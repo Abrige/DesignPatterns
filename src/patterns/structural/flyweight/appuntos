@@ -1,0 +1,25 @@
+
+    Spiegazione Breve:
+    Il suo scopo è quello di alleggerire il carico della memoria creando oggetti che condividono le stesse informazioni.
+    In pratica, invece di creare un nuovo oggetto, si controlla se ne esiste già uno uguale e lo si restituisce.
+
+    Quando si devono creare molti oggetti simili, si può usare il FlyWeight per ridurre il consumo di memoria.
+    Questo però potrebbe creare un maggiore uso della CPU.
+
+    Sprite nei giochi --> immagine che rappresenta un determinato elemento nel gioco, generalmente in 2D.
+
+    Individuare elementi intrinsechi (cioè costanti): (nell'esempio di Refactoring Guru)
+    -sprite
+    -color
+
+    Individuare elementi estrinsechi (cioè variabili): (nell'esempio di Refactoring Guru)
+    - (?)
+    - (?)
+
+    Si usa la classe FlyWeight per gli elementi costanti.
+
+    Un esempio di FlyWeight nel progetto potrebbe essere:
+    - (?)
+
+    NON potrebbe essere:
+    - gli utenti (non sono caricati in memoria, ma vengono caricati in un database, perciò non avrebbe senso)

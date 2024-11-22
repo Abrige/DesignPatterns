@@ -1,0 +1,10 @@
+
+
+    Da un'accesso semplificato a sottosistemi complessi.
+
+    Ad esempio l'operatore al telefono a cui noi diciamo il problema e senza dirgli le specifiche azioni da fare
+    lui ce lo risolve con una interfaccia semplice rispetto al suo sottosistema complesso.
+
+    Abstract factory è una alternativa alla facade quando si vuole nascondere la creazione degli oggetti
+
+    Una classe Facade può essere trasformata in un singleton.

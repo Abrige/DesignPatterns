@@ -1,0 +1,7 @@
+
+    Spiegazione breve composite:
+    Quando si ha una gerarchia di oggetti e si vuole trattare un oggetto singolo.
+
+    Ad esempio un file system, dove si ha una directory e un file, una directory può contenere
+    un file o un altra directory dentro mentre il file è una foglia dell'albero.
+    Perciò si usa il principio della visita in profondità e della ricorsione per visitare le foglie.

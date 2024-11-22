@@ -1,0 +1,10 @@
+
+    Utilizzo del design pattern:
+        abbiamo dei gruppi di oggetti e vogliamo accedere a questi gruppi in modo sequenziale.
+
+    Accesso casuale potrebbe essere utile.
+
+    Si separa il comportamento di accesso ai dati dalla struttura dei dati,
+    ci possono essere diversi metodi di attraversamento della struttura per ogni tipo di struttura diversa.
+
+

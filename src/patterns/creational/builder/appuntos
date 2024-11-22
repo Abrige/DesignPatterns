@@ -1,0 +1,8 @@
+
+    Spiegazione breve del pattern Builder:
+    Quando si ha bisogno di creare un oggetto complesso, con molti parametri,
+    si può utilizzare il pattern Builder.
+    Praticamente quando si ha bisogno di creare oggetti diversi tra loro ma in qualche modo simili
+    si crea una classe che costruisce l'oggetto.
+    Ad es. una casa, una casa con piscina, una casa con giardino ecc...
+    Invece di creare un costruttore enorme con mille parametri si crea una classe che costruisce l'oggetto.

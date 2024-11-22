@@ -1,0 +1,17 @@
+
+    Il bridge permette di suddividere una grande classe o un insieme di classi correlate
+    in due gerarchie separate.
+
+    Applicazione monolitica --> un'applicazione software in cui tutte le funzionalità
+    sono strettamente integrate e gestite come un'unica unità.
+    Va a contenere talmente tanti metodi e unità che cresce esponenzialmente
+    come numero di righe di codice.
+
+    Bridge da non confondere con lo strategy.
+
+    Spiegazione breve del pattern Bridge:
+    praticamente adatta due gerarchie separate in modo che possano lavorare insieme.
+
+    Ad es. Hai diverse forme e per ogni forma hai diversi colori, piuttosto che fare ogni forma
+    per ogni tipo di colore, mantieni la gerarchia così com'è e unisci le due interfaccie forma
+    e colore.

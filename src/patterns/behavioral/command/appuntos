@@ -1,0 +1,9 @@
+
+    Il design pattern Command serve a gestire richieste
+    Abbiamo X richieste diverse e vogliamo un sistema che le gestisca tutte quante.
+    Il command ci permette di evitare ridondanza di codice.
+
+    Vantaggi:
+    - Singola responsabilità
+    - Apertura/Chiusura, estendere il codice ecc...
+
